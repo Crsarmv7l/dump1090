@@ -266,7 +266,7 @@ void modesInitConfig(void) {
     Modes.fix_errors = 1;
     Modes.check_crc = 1;
     Modes.raw = 0;
-    Modes.net = 0;
+    Modes.net = 1;
     Modes.net_only = 0;
     Modes.onlyaddr = 0;
     Modes.debug = 0;
