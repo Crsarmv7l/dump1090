@@ -270,7 +270,7 @@ void modesInitConfig(void) {
     Modes.net_only = 0;
     Modes.onlyaddr = 0;
     Modes.debug = 0;
-    Modes.interactive = 0;
+    Modes.interactive = 1;
     Modes.interactive_rows = MODES_INTERACTIVE_ROWS;
     Modes.interactive_ttl = MODES_INTERACTIVE_TTL;
     Modes.aggressive = 0;
